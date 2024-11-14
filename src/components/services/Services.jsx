@@ -12,12 +12,13 @@ const variants = {
         x: 0,
         opacity: 1,
         y: 0,
-        transition: { // Corrected typo here
+        transition: { // Corrected type here
             duration: 1,
             staggerChildren: 0.1,
         }
     }
 };
+
 
 const Services = () => {
 

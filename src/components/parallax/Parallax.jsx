@@ -53,7 +53,7 @@ const Parallax = ({ type }) => {
         >
             <motion.div className="stars" animate={controls}></motion.div>
             <motion.h1 style={{ y: yText }}>
-                {type === "services" ? "What am I good at?" : "What am I good at??"}
+                {type === "services" ? "What I Do?" : "What I Did?"}
             </motion.h1>
             <motion.div className="mountains"></motion.div>
             <motion.div style={{ y: yBg }} className="planets"></motion.div>

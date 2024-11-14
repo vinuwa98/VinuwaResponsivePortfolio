@@ -7,6 +7,19 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .stars {
+      position: absolute;
+      top: 0%;
+      right: -20%;
+      width: 200%; /* Increase width for a smoother animation */
+      height: 200%;
+      background-image: url('/stars.png');
+      background-repeat: repeat;
+      background-position: center;
+      opacity: 80%; /* Adjust for desired visibility */
+  
+  }
+
     .textContainer{
         flex: 1;
         align-self: flex-end;
